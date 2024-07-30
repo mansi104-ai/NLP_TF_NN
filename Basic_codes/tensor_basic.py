@@ -55,3 +55,4 @@ shuffled_output = tf.random.shuffle(input_tensor)
 
 cropped_output = tf.random.crop(input_tensor,crop_size = 3)
 
+tf.convert_to_tensor() ## to convert numpy array to python list
